@@ -1,0 +1,74 @@
+/* Header.css */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111111;
+  padding: 15px 40px;
+  font-family: "Brushtip Texe"; 
+  border-bottom: 2px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+}
+
+.logo-container h2 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #42e8b2; 
+}
+
+.header-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-play {
+  background-color: #b73a33;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: "Brushtip Texe";
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.btn-play:hover {
+  background-color: #8f2a24;
+}
+
+.btn-login {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #555;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: "Brushtip Texe";
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.btn-login:hover {
+  background-color: #333;
+}

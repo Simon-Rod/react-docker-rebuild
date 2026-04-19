@@ -1,0 +1,62 @@
+.hero-section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.title-box {
+  background-color: #151515;
+  padding: 20px 30px;
+  display: inline-block;
+  transform: rotate(-2deg); /* Gives it that chaotic pirate tilt */
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.title-white {
+  color: white;
+  font-size: 70px;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: Impact, sans-serif; 
+}
+
+.title-green {
+  color: #42e8b2; 
+  font-size: 80px;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: Impact, sans-serif;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.platforms p {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.platform-logos {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  font-size: 16px;
+}

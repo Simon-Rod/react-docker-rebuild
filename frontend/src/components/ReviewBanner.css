@@ -1,0 +1,58 @@
+.review-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #0d1115; 
+}
+
+.review-box {
+  background-color: #050708;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 60px;
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #222;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  clip-path: polygon(2% 0, 100% 2%, 98% 100%, 0 98%);
+}
+
+.review-logo {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: Arial, sans-serif;
+}
+
+.ign-red {
+  color: #bf1313;
+  letter-spacing: -2px;
+}
+
+.review-content {
+  text-align: center;
+}
+
+.review-content h2 {
+  margin: 0 0 10px 0;
+  font-family: Impact, sans-serif;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.ign-text {
+  color: #42e8b2;
+}
+
+.score-text {
+  color: #42e8b2;
+}
+
+.review-content p {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif; 
+  font-style: italic;
+}

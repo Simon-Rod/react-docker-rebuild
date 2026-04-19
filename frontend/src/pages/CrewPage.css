@@ -1,0 +1,48 @@
+.crew-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #0d1115;
+  color: white;
+  padding: 40px 20px;
+}
+
+.crew-box {
+  background-color: #111111;
+  padding: 40px;
+  border: 2px solid #222;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.crew-box h1 {
+  color: #42e8b2;
+  text-transform: uppercase;
+  font-family: Impact, sans-serif;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+.crew-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.crew-table th, .crew-table td {
+  padding: 12px;
+  border-bottom: 1px solid #333;
+}
+
+.crew-table th {
+  color: #b73a33;
+  text-transform: uppercase;
+}
+
+.crew-table tr:hover {
+  background-color: #1a1a1a;
+}
